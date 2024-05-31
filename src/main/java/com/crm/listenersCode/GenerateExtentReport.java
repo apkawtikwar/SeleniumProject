@@ -56,7 +56,7 @@ public class GenerateExtentReport implements ITestListener{
 			File path =  new File("./ExtentReport/testcase.html");
 			spark = new  ExtentSparkReporter(path);
 			spark.config().setDocumentTitle("selenium");
-			spark.config().setReportName("Desul");
+			spark.config().setReportName("Aditi");
 			spark.config().setTheme(Theme.STANDARD);
 			//attach the test case
 			report=new ExtentReports();
