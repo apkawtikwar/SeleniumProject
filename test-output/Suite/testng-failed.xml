@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.listenersCode.DWSLogin"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNgTravel.RedBus">
+        <methods>
+          <include name="redBus"/>
+        </methods>
+      </class> <!-- TestNgTravel.RedBus -->
+      <class name="TestNgFashion.Dws">
+        <methods>
+          <include name="dws"/>
+        </methods>
+      </class> <!-- TestNgFashion.Dws -->
+      <class name="TestNgFashion.Ajio">
+        <methods>
+          <include name="ajio"/>
+        </methods>
+      </class> <!-- TestNgFashion.Ajio -->
+      <class name="TestNgTravel.MakeMyTrip">
+        <methods>
+          <include name="makeTrip"/>
+        </methods>
+      </class> <!-- TestNgTravel.MakeMyTrip -->
+      <class name="TestNgTravel.AbhiBus">
+        <methods>
+          <include name="abhiBus"/>
+        </methods>
+      </class> <!-- TestNgTravel.AbhiBus -->
+      <class name="TestNgFashion.KalkiFashion">
+        <methods>
+          <include name="kFashion"/>
+        </methods>
+      </class> <!-- TestNgFashion.KalkiFashion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
